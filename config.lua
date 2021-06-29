@@ -5,4 +5,6 @@ function RuntimeUpdate()
         [4] = 5 + 64,
 	}
 	CWM_SettingControl(SCL_LOG, scl)
+
+	return 0
 end
