@@ -1,3 +1,5 @@
+require "common"
+
 function RuntimeUpdate()
 	local scl = {
         [0] = 1,
