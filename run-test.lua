@@ -22,5 +22,6 @@ function aml_between_config()
 end
 
 function aml_post_config()
-	CWM_Sensor_Enable(100)
+	--CWM_Sensor_Enable(100)
+	dbgOut("happy")
 end
