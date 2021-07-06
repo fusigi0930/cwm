@@ -20,6 +20,6 @@ function aml_between_config()
 	CWM_SettingControl(SCL_LOG, scl);
 end
 
-function aml_poast_config()
+function aml_post_config()
 	CWM_Sensor_Enable(100)
 end
