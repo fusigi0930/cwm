@@ -1,7 +1,7 @@
 require "common"
 
 function aml_pre_config()
-
+	dbgOut("oh ya")
 end
 
 function aml_between_config()
