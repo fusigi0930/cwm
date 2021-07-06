@@ -21,5 +21,5 @@ function aml_between_config()
 end
 
 function aml_poast_config()
-	CWM_SensorEnable(100)
+	CWM_Sensor_Enable(100)
 end
