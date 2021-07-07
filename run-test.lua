@@ -14,14 +14,14 @@ function aml_between_config()
 
 	scl = {
 		[0] = 1,
-		--[3] = 3,
-		--[4] = 5 + 64,
+		[3] = 3,
+		[4] = 5 + 64,
 	}
 	CWM_SettingControl(SCL_LOG, scl);
 	dbgOut("haha")
 end
 
 function aml_post_config()
-	--CWM_Sensor_Enable(100)
+	CWM_Sensor_Enable(100)
 	dbgOut("happy")
 end
