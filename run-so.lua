@@ -2,7 +2,7 @@ require "common"
 
 function aml_pre_config()
 	dbgOut("oh ya\n")
-	use_lib("so/headset_adv.so")
+	use_lib("headset_adv.so")
 end
 
 function aml_between_config()
